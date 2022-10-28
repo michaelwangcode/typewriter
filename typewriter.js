@@ -13,7 +13,7 @@ for (const char of sentence) {
   // Print each character 250ms after the other
   setTimeout(() => {
     process.stdout.write(char);
-  }, time)
+  }, time);
 
   // Increment the time by 250ms
   time += 250;
